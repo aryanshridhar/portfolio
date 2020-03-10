@@ -280,7 +280,9 @@ div.card:hover{
     background-color:rgba(255,255,255,0.9);
     transition: 0.2s ease;
 }
-
+div.imgmove{
+    margin-top: 4%;
+}
 @media screen and (max-width:1400px){
     p.heading{
         font-size: 4rem;
@@ -345,7 +347,24 @@ div.card:hover{
     div.movedown{
         margin-top: 70%;
     }
-
+    img.hovericon{
+        width: 150px;
+    }
+    img.htmlimg{
+        width: 280px;
+    }
+    img.djangoimg{
+        width: 190px;
+    }
+    img.flaskimg{
+        width: 220px;
+    }
+    img.bootstrapimg{
+        width: 580px;
+    }
+    div.imgtop{
+        margin-top: 0%;
+    }
 }
 @media screen and (max-width:560px){
     p.note{
