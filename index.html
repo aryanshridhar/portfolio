@@ -30,19 +30,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                      <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+                      <a class="nav-link text-white" onclick="toggle();" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-white" href="#about">About</a>
+                      <a class="nav-link text-white" onclick="toggle();" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#skills">Skills</a>
+                        <a class="nav-link text-white" onclick="toggle();" href="#skills">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#project">Projects</a>
+                        <a class="nav-link text-white" onclick="toggle();" href="#project">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#social">Socialize</a>
+                        <a class="nav-link text-white" onclick="toggle();" href="#social">Socialize</a>
                     </li>
                   </ul>
                 </div>
@@ -60,10 +60,10 @@
         <div class="container-fluid movedown1">
             <div class="custom-container mt-5">
                 <div class="row">
-                    <div class="col-6 text-center right">
+                    <div class="col-lg-6 col-12 right">
                         <div class="borderone">
-                            <img src="photos/profile.jpg" class="img-thumbnail hover" width="400">
-                            <img src="photos/newprofile.png" class="img-thumbnail tohover" width="550" height="550">
+                            <img src="photos/profile.jpg" class="img-thumbnail hover pic" width="350">
+                            <img src="photos/newprofile.png" class="img-thumbnail tohover pic" width="550" height="550">
                         </div>
                     </div>
                     <div class="col-lg-6 design text-left">
@@ -187,6 +187,7 @@
             </div>
         </div>
     </div>
+    <script src="./jsfile/index.js"></script>
     <script>
         $(window).scroll(function () {
             if ($(window).scrollTop() >= window.innerHeight/1.20) {

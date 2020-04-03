@@ -320,9 +320,6 @@ div.imgmove{
     div.design{
         margin-left: 1.4%;
     }
-    div.right{
-        margin-left: 20%;
-    }
     p.heading{
         font-size: 2.3rem;
     }
@@ -337,6 +334,9 @@ div.imgmove{
     }
     div.movedown{
         margin-left:14%;
+    }
+    div.borderone{
+        margin-left:23%;
     }
 }
 
