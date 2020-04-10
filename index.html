@@ -62,8 +62,15 @@
                 <div class="row">
                     <div class="col-lg-6 col-12 right">
                         <div class="borderone">
-                            <img src="photos/profile.jpg" class="img-thumbnail hover pic" width="350">
-                            <img src="photos/newprofile.png" class="img-thumbnail tohover pic" width="550" height="550">
+                            <img src="photos/profile.jpg" class="img-thumbnail hover pic1" id = 'img' width="450">
+                            <img src="photos/newprofile.png" class="img-thumbnail tohover pic" id = 'img' width="550" height="550">
+
+                            <div class="row text-center">
+                                <div class="col-12 text-center">
+                                    <figcaption class="text-white" id = 'figmargin'>Click to change</figcaption>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                     <div class="col-lg-6 design text-left">
@@ -179,7 +186,7 @@
                     <div class="s-m">
                       <a class="fa fa-github" href="https://github.com/aryanshridhar" target="_blank"></a>
                       <a class="fa fa-twitter" href="https://twitter.com/ShridharAryan" target="_blank"></a>
-                      <a class="fa fa-google" href="https://mail.google.com/mail/u/0/#inbox" target="_blank"></a>
+                      <a class="fa fa-google" href="mailto:aryanshridhar7@gmail.com" target="_blank"></a>
                       <a class="fa fa-instagram" href="https://www.instagram.com/aryanshridhar_007/" target="_blank"></a>
                       <a class="fa fa-facebook" href="https://www.facebook.com/aryan.shridhar.1" target="_blank"></a>
                     </div>
@@ -188,15 +195,5 @@
         </div>
     </div>
     <script src="./jsfile/index.js"></script>
-    <script>
-        $(window).scroll(function () {
-            if ($(window).scrollTop() >= window.innerHeight/1.20) {
-                $('.navbar').css('background','#26172C');
-            } else {
-                $('.navbar').css('background','transparent');
-            }
-        });
-
-    </script>
 </body>
 </html>

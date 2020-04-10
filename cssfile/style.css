@@ -91,24 +91,15 @@ label.about{
 span:hover .extra {
     display: block;
 }
+#figmargin{
+    /* margin-top: -1px; */
+}
 p.note{
     margin-top:3%;
     color:black;
     font-size: 20px;
     font-family: Asul;
     justify-content:center;
-}
-img.tohover{
-    display: none;
-    transition: 1s ease;
-}
-img.hover:hover{
-    display: none;
-    transition: 1s ease;
-}
-img.hover:hover + img.tohover{
-    display: block;
-    transition: 1s ease;
 }
 div.design:hover{
     transform: rotate(-1.5deg);
@@ -120,7 +111,6 @@ progress {
     height: 5px;
     background:white;
 }
-    
 progress::-webkit-progress-value {
     background:lightgray;
 }
@@ -337,6 +327,16 @@ div.imgmove{
     }
     div.borderone{
         margin-left:23%;
+    }
+    #img{
+        width: 350px;
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width : 875px)
+{
+    #img{
+        margin-left: 0;
     }
 }
 
