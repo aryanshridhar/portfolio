@@ -13,6 +13,7 @@ type links = {
     linkedinLink: string;
     stackOverFlowLink: string;
     twitterLink: string;
+    resumeLink: string;
 };
 
 const hrefLinks: links = {
@@ -21,13 +22,14 @@ const hrefLinks: links = {
     linkedinLink: 'https://www.linkedin.com/in/aryan-shridhar-b3a44b19a/',
     stackOverFlowLink: 'https://stackoverflow.com/users/13148815/aryan-shridhar',
     twitterLink: 'https://twitter.com/ShridharAryan',
+    resumeLink: 'https://drive.google.com/file/d/1g0vNfaQODeqjDfgbDLOZWtYbG3EN-kLW/view?usp=sharing',
 };
 
 ReactDOM.render(
     <React.StrictMode>
         <Sidebar links={hrefLinks} />
-        <ImageContainer isCaption={true} />
-        <AboutSection resumeLink={'#'} />
+        <ImageContainer />
+        <AboutSection resumeLink={hrefLinks.resumeLink} />
     </React.StrictMode>,
     document.getElementById('root'),
 );

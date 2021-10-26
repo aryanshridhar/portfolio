@@ -1,0 +1,39 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 70px;
+    padding-left: 10px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .sidebar a {
+        float: left;
+    }
+}
+
+@media screen and(max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}

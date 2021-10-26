@@ -1,0 +1,37 @@
+.textContainer {
+    margin-left: 25%;
+    margin-right: 10%;
+}
+
+.sectionContainer {
+    display: flex;
+    margin-top: 20px;
+}
+
+.textStyle {
+    font-family: 'Asul';
+    text-align-last: left;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 700px) {
+    .textContainer {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .sectionContainer {
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .textContainer {
+        margin-left: 15%;
+    }
+
+    .sectionContainer {
+        padding-top: 0;
+        margin-top: 0;
+    }
+}

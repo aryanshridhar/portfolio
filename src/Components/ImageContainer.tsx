@@ -1,32 +1,21 @@
 import React from 'react';
-
 import avatar from '../static/personal-image.png';
 
-import styles from '../styles/ImageContainer';
+import '../styles/ImageContainer.css';
 
-type props = {
-    isCaption: boolean;
-};
-
-class ImageContainer extends React.Component<props> {
-    renderCaption = (isCaption: boolean): JSX.Element => {
-        if (isCaption) {
-            return (
-                <figure style={styles.figureStyle}>
-                    <img src={avatar} style={styles.avatarStyle}></img>
-                    <figcaption style={styles.figureCaptionStyle}>
-                        Still hunting for a better frontal view face image!
-                    </figcaption>
-                </figure>
-            );
-        }
-        return <div></div>;
+class ImageContainer extends React.Component {
+    renderImage = (): JSX.Element => {
+        return (
+            <figure className="figure">
+                <img className="avatar" src={avatar}></img>
+            </figure>
+        );
     };
 
     render(): JSX.Element {
         return (
             <div>
-                <div>{this.renderCaption(this.props.isCaption)}</div>
+                <div>{this.renderImage()}</div>
             </div>
         );
     }

@@ -1,0 +1,17 @@
+.avatar {
+    height: 45vh;
+    margin-top: 15%;
+    border-radius: 4px;
+    vertical-align: top;
+}
+
+.figure {
+    display: inline-block;
+    margin-left: 15%;
+}
+
+@media screen and (max-width: 540px) {
+    .avatar {
+        height: 35vh;
+    }
+}
