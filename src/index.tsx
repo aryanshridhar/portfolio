@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Sidebar from './Components/Sidebar';
-import ImageContainer from './Components/ImageContainer';
-import AboutSection from './Components/AboutSection';
+import Sidebar from './components/Sidebar';
+import ImageContainer from './components/ImageContainer';
+import AboutSection from './components/AboutSection';
 
 import './index.css';
 import reportWebVitals from './reportWebVitals';
@@ -22,7 +22,7 @@ const hrefLinks: links = {
     linkedinLink: 'https://www.linkedin.com/in/aryan-shridhar-b3a44b19a/',
     stackOverFlowLink: 'https://stackoverflow.com/users/13148815/aryan-shridhar',
     twitterLink: 'https://twitter.com/ShridharAryan',
-    resumeLink: 'https://drive.google.com/file/d/1g0vNfaQODeqjDfgbDLOZWtYbG3EN-kLW/view?usp=sharing',
+    resumeLink: 'https://drive.google.com/file/d/1ppUMjT5yrrhpxHwerA6KEH7eCuqKiQRT/view?usp=sharing',
 };
 
 ReactDOM.render(
